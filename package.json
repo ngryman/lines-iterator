@@ -1,6 +1,6 @@
 {
   "name": "lines-iterator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Iterates over lines, es6 way.",
   "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh/)",
   "license": "MIT",
@@ -18,10 +18,8 @@
     "test",
     "check-coverage"
   ],
-  "keywords": [
-  ],
-  "dependencies": {
-  },
+  "keywords": [],
+  "dependencies": {},
   "devDependencies": {
     "ava": "^0.15.1",
     "codecov.io": "^0.1.6",
