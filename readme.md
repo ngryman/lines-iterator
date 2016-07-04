@@ -10,7 +10,7 @@
 [codecov-url]: https://codecov.io/github/ngryman/lines-iterator
 
 
-**lines-iterator** lets you ...
+**lines-iterator** allows you to iterate over lines via a `es6` iterator.
 
 ## Install
 
@@ -21,17 +21,44 @@ npm install --save lines-iterator
 ## Usage
 
 ```javascript
-const linesIterator = require('lines-iterator')
+const lines = require('lines-iterator')
 
+for (let line of lines('first\nsecond')) {
+  console.log(`LINE: ${line}`)
+}
+
+// => LINE: first
+// => LINE: second
 ```
 
 ## API
 
-TODO
+### `lines(text[, options])`
 
-## FAQ
+#### `text` <sup><sub>`{string}`</sub></sup>
 
-TODO
+Text containing `eol` characters.
+
+#### `options` <sup><sub>`{object}`</sub></sup>
+
+##### `ignoreEmpty` <sup><sub>`{boolean}`</sub></sup>
+
+Ignore empty lines.
+
+```javascript
+const text = `
+first
+
+second
+`
+
+for (let line of lines(text, { ignoreEmpty: true })) {
+  console.log(`LINE: ${lines}`)
+}
+
+// => LINE: first
+// => LINE: second
+```
 
 ## License
 
