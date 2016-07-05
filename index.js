@@ -3,7 +3,7 @@
 const EOL = require('os').EOL
 
 /**
- * Create a iterator that iterates over lines.
+ * Create an iterator that iterates over lines.
  *
  * @param {string} text
  * @param {object} options
