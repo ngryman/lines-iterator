@@ -21,11 +21,11 @@
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.15.1",
+    "ava": "^0.17.0",
     "codecov.io": "^0.1.6",
-    "eslint": "^2.13.1",
+    "eslint": "^3.11.0",
     "eslint-config-ngryman": "^1.1.0",
-    "nyc": "^6.4.4",
+    "nyc": "^10.0.0",
     "pre-commit": "^1.1.3"
   }
 }
