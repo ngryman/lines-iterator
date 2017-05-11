@@ -1,5 +1,7 @@
 # Lines Iterator
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ngryman/lines-iterator.svg)](https://greenkeeper.io/)
+
 > Iterates over lines, es6 way.
 
 [![travis][travis-image]][travis-url] [![codecov][codecov-image]][codecov-url]
